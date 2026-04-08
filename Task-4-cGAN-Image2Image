@@ -1,0 +1,10 @@
+//Install TensorFlow or PyTorch and pix2pix repo
+
+//pip install tensorflow
+//Use pre-processed datasets like:
+//Edges2Shoes
+//Maps
+//Run Pix2Pix:
+//Use this notebook:
+//TensorFlow Pix2Pix Notebook
+//Visualize Before/After image transformation
