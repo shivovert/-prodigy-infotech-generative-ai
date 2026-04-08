@@ -1,0 +1,11 @@
+//Install TensorFlow:
+
+pip install tensorflow
+
+//Choose Two Images:
+//One content image (eg. your photo)
+//One style image (eg. Van Gogh painting)
+//Use TensorFlow’s Style Transfer:
+//Run this notebook https://www.tensorflow.org/tutorials/generative/style_transfer
+
+//Save and Compare the result
