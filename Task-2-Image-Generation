@@ -1,0 +1,13 @@
+//Set Up Environment:
+
+pip install diffusers transformers torch
+
+//Use Hugging Face Diffusers:
+
+from diffusers import StableDiffusionPipeline
+pipe = StableDiffusionPipeline.from_pretrained("CompVis/stable-diffusion-v1-4").to("cuda")
+image = pipe("A fantasy castle on a hill").images[0]
+image.save("fantasy_castle.png")
+
+//Try Multiple Prompts (art, real-world, abstract)
+//Document Your Results with images.
