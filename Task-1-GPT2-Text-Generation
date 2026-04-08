@@ -1,0 +1,12 @@
+//Install Requirements:
+pip install transformers datasets
+
+//Collect Data:
+
+from transformers import GPT2Tokenizer, GPT2LMHeadModel, Trainer, TrainingArguments, TextDataset, DataCollatorForLanguageModeling
+
+//Generate Text:
+After training:
+
+model.generate(tokenizer.encode("Your prompt", return_tensors="pt"), max_length=100)
+
